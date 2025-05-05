@@ -1,0 +1,12 @@
+{
+	"recommendations": [
+		"biomejs.biome",
+		"dbaeumer.vscode-eslint",
+		"EditorConfig.EditorConfig",
+		"Gruntfuggly.auto-snippet",
+		"maptz.camelcasenavigation",
+		"naumovs.color-highlight",
+		"oven.bun-vscode",
+		"tamasfe.even-better-toml"
+	]
+}

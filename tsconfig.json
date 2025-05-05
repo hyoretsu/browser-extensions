@@ -1,0 +1,17 @@
+{
+	"extends": "@hyoretsu/tsconfig/base",
+	"compilerOptions": {
+		"lib": ["DOM", "DOM.Iterable", "ESNext"],
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"noUnusedLocals": false,
+		"paths": {
+			"@application/*": ["./src/application/*"],
+			"@domain/*": ["./src/domain/*"],
+			"@infra/*": ["./src/infra/*"],
+			"@interface/*": ["./src/interface/*"]
+		},
+		"typeRoots": ["./@types", "./node_modules/@types", "./src/infra/types"]
+	},
+	"exclude": ["**/build", "**/dist", "**/node_modules", "**/tmp"]
+}
